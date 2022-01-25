@@ -1,0 +1,49 @@
+.display{
+    border: 2px solid #000;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    text-align: right;
+    overflow: hidden;
+}
+.box{
+    width: 200px;
+    height: 170px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.switch,.reset,.result{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.signal{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    display: flex;
+}
+.signal{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    display: flex;
+}
+.calculation{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    background-color: orange;
+}
